@@ -13,7 +13,24 @@ Two distinct approaches are introduced: the Two Step Interplanner and the Two St
 
 ![image](https://github.com/lovesh1711/Multi-UAV-Path-Planning-for-Urban-Air-Mobility/assets/88122434/daffdde3-27cb-466c-a8d1-e311058d32d7)
 
+For running the algorithm for the ground robot, download the directory " Two-step Interplanner for ground robot " and run the file PlanMobileRobotPathsUsingRRTExample.mlx file in MATLAB. 
+
+We successfully simulated our algorithm and benchmarked the results
+
+![image](https://github.com/lovesh1711/Multi-UAV-Path-Planning-for-Urban-Air-Mobility/assets/88122434/fb9868ca-5ea0-4979-8afe-814e89c9db6e)
+
+Similarly, for running the algorithm for UAVs, download the directory "Two-step Interplanner for UAVs " and run the file MotionPlanningWithRRTForAFixedWingUAVExample.mlx file 
+
+The following results were achieved for two UAVs in a 3d environment
+
+![image](https://github.com/lovesh1711/Multi-UAV-Path-Planning-for-Urban-Air-Mobility/assets/88122434/9e28d818-12bb-455e-8974-624e955afc01)
 
 
+## Two-Step Interplanner with Conflict Resolution
 
-In addition to the proposed approaches, a case study on task reallocation is presented, which is a critical aspect of multi UAV operations. While most existing studies focus on static task allocation, the investigation conducted addresses the dynamic nature of task execution. Unforeseen events like UAV failures or environmental changes can disrupt the original task allocation, impeding task completion. We propose a Partial Reassignment Algorithm (PRA) to solve this challenge. The PRA selectively reallocates tasks among UAVs, optimizing task success rates and alleviating communication and computation burdens. By integrating this algorithm into the framework, the adaptability and robustness of multi UAV operations in dynamic environments is enhanced.
+![image](https://github.com/lovesh1711/Multi-UAV-Path-Planning-for-Urban-Air-Mobility/assets/88122434/7b819cd2-8d09-4cce-8a7a-85bbd6e89bc9)
+
+
+## Dynamic Task Reallocation: Case Study
+
+In addition to the proposed approaches, a case study on task reallocation is presented, which is a critical aspect of multi UAV operations. While most existing studies focus on static task allocation, the investigation conducted addresses the dynamic nature of task execution. Unforeseen events like UAV failures or environmental changes can disrupt the original task allocation, impeding task completion. We propose a Partial Reassignment Algorithm (PRA) to solve this challenge. The PRA selectively reallocates tasks among UAVs, optimizing task success rates and alleviating communication and computation burdens. By integrating this algorithm into the framework, the adaptability and robustness of multi-UAV operations in dynamic environments are enhanced.
