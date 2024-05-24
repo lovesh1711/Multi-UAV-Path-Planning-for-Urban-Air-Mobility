@@ -13,13 +13,16 @@ Two distinct approaches are introduced: the Two Step Interplanner and the Two St
 
 ![image](https://github.com/lovesh1711/Multi-UAV-Path-Planning-for-Urban-Air-Mobility/assets/88122434/daffdde3-27cb-466c-a8d1-e311058d32d7)
 
-For running the algorithm for the ground robot, download the directory " Two-step Interplanner for ground robot " and run the file PlanMobileRobotPathsUsingRRTExample.mlx file in MATLAB. 
+### Simulation results on ground robot 
+
+For running the algorithm for the ground robot, download " ground robot " in "Two step Interplanner" directory and run the file PlanMobileRobotPathsUsingRRTExample.mlx file in MATLAB. 
 
 We successfully simulated our algorithm and benchmarked the results
 
 ![image](https://github.com/lovesh1711/Multi-UAV-Path-Planning-for-Urban-Air-Mobility/assets/88122434/fb9868ca-5ea0-4979-8afe-814e89c9db6e)
 
-Similarly, for running the algorithm for UAVs, download the directory "Two-step Interplanner for UAVs " and run the file MotionPlanningWithRRTForAFixedWingUAVExample.mlx file 
+### Simulation results on UAVs 
+For running the algorithm for the ground robot, download " UAV " in "Two step Interplanner" directory and run the file MotionPlanningWithRRTForAFixedWingUAVExample.mlx file 
 
 The following results were achieved for two UAVs in a 3d environment
 
@@ -29,6 +32,16 @@ The following results were achieved for two UAVs in a 3d environment
 ## Two-Step Interplanner with Conflict Resolution
 
 ![image](https://github.com/lovesh1711/Multi-UAV-Path-Planning-for-Urban-Air-Mobility/assets/88122434/7b819cd2-8d09-4cce-8a7a-85bbd6e89bc9)
+
+### Simulation results on ground robot
+To run the algorithm, enter the number of agents, their starting and goal coordinates (comma separated), and a conflict free path will be generated as shown in the figure below (simulated for 4 agents)
+![image](https://github.com/lovesh1711/Multi-UAV-Path-Planning-for-Urban-Air-Mobility/assets/88122434/acfa5f73-fa94-465c-98da-23574d17f19b)
+
+### Simulation results on UAVs
+To run the algorithm, enter the number of agents, their starting and goal coordinates (comma separated), and a conflict free path will be generated as shown in the figure below (simulated for 4 agents)
+![image](https://github.com/lovesh1711/Multi-UAV-Path-Planning-for-Urban-Air-Mobility/assets/88122434/2f877d5b-c6e2-4e23-9e8f-8f2341341bbc)
+
+
 
 
 ## Dynamic Task Reallocation: Case Study
